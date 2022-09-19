@@ -30,6 +30,6 @@ void PrintResult(double res)
     Console.WriteLine ($"Результат: {res}");
 }
 
-double A = ConsoleReadNumberDouble("Введите основание степени: ");
-int B = ConsoleReadNumberInt("Введите показатель степени: ");
-PrintResult(CalculatePower(A, B));
+double a = ConsoleReadNumberDouble("Введите основание степени: ");
+int b = ConsoleReadNumberInt("Введите показатель степени: ");
+PrintResult(CalculatePower(a, b));
